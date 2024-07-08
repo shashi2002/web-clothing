@@ -1,0 +1,22 @@
+<div class="ps-5 pe-2 py-3 " *ngIf="from=='products'">
+    <div class="card" style="width: 18rem;">
+        <img id="myImage" src="{{product.img}}" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">{{product.name}}</h5>
+            <p class="card-text">${{product.price}}</p>
+            <button class="btn btn-outline-primary" (click)="handleClick(product)">View</button>
+        </div>
+    </div>
+</div>
+<div class="ps-5 pe-2 py-3 " *ngIf="from=='cart'">
+    <div class="card" style="width: 18rem;">
+        <img id="myImage" src="{{product.img}}" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">{{product.name}}</h5>
+            <p class="card-text">${{product.price}}</p>
+            <button class="btn btn-outline-primary">View</button>
+            <button class="btn btn-warning" style="margin:20px; width: 61%">BUY ITEM</button>
+        </div>
+    </div>
+</div>
+<!-- (click)="handleClick(product)" -->

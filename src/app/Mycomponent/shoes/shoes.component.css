@@ -1,0 +1,28 @@
+#backButton {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    /* border: 1px solid black; */
+}
+
+#image {
+    height: 500px;
+    width: 500px;
+    /* border-right: 10px solid; */
+    /* border-image: linear-gradient(to right, 0%, transparent 70%) 1; */
+}
+
+#info {
+    padding-top: 5%;
+    padding-left: 8%;
+    width: 45%;
+    height: 250px;
+}
+
+.butn {
+    margin-left: 20px;
+}
+
+.checked {
+    color: orange;
+}

@@ -1,0 +1,8 @@
+.vstack a {
+    text-decoration: none;
+    color: black;
+}
+
+.vstack a:hover {
+    color: chocolate
+}

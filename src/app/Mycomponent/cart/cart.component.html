@@ -1,0 +1,6 @@
+<div class="container">
+    <h2 style="text-align:center; font-family: Helvetica Neue;">Cart</h2>
+</div>
+<div class="container d-flex flex-wrap">
+    <app-product-item *ngFor="let product of items" [product]="product" [from]="'cart'"></app-product-item>
+</div>
